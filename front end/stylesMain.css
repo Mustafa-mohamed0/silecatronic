@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: lightorange;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: purple;
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px;
+}
+
+.left-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.image-box {
+    background-size: cover;
+    height: 150px;
+    transition: transform 0.3s;
+}
+
+.image-box:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: lightorange;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    margin-right: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+}
+
+.copyright {
+    color: white;
+}

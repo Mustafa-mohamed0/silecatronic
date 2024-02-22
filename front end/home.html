@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Diabetes Type Selection</title>
+</head>
+<body class="home">
+    <div class="container">
+        <h1>Choose which type of Diabetes you have?</h1>
+        <div id="choices">
+            <label>
+                <input type="radio" name="diabetesType" value="type1"> Type 1 Diabetes
+            </label>
+            <label>
+                <input type="radio" name="diabetesType" value="type2"> Type 2 Diabetes
+            </label>
+            <label>
+                <input type="radio" name="diabetesType" value="prediabetes"> Prediabetes
+            </label>
+            <label>
+                <input type="radio" name="diabetesType" value="gestational"> Gestational Diabetes
+            </label>
+        </div>
+        <button onclick="submitSelection()">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
